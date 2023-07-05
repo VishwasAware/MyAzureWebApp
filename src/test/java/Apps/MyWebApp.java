@@ -2,6 +2,7 @@ package Apps;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MyWebApp {
@@ -12,7 +13,7 @@ public class MyWebApp {
 	  driver.get("https://www.google.com/");
 	  String Title = driver.getTitle();
 	  System.out.println("Title is "+Title);
-	// Assert.assertEquals(title, "My N Login Page");
+	 Assert.assertEquals(Title, "My N Login Page");
 	  Thread.sleep(2000);
 	  driver.close();
 	  
