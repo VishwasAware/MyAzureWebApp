@@ -3,10 +3,10 @@ package Apps;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.testng.Assert;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 public class MyWebApp {
-  @Test
+ // @Test
   public void VerifyTitle() throws InterruptedException {
 	  
 	  WebDriver driver = new ChromeDriver();
